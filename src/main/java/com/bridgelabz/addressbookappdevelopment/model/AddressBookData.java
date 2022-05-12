@@ -29,7 +29,8 @@ public class AddressBookData {
         this.email = email;
     }
 
-    public void AddressBookDataData(int personId, AddressBookDTO addressBookDTO) {
+    public AddressBookData(int personId, AddressBookDTO addressBookDTO) {
+        super();
         this.personId = personId;
         this.firstName = addressBookDTO.firstName;
         this.lastName = addressBookDTO.lastName;
